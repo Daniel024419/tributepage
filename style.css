@@ -1,0 +1,148 @@
+ 
+body{
+    margin: 0;
+}
+#heading-body{
+    text-transform: uppercase;
+    color: rgb(43, 42, 42);
+    background-color: rgb(164, 112, 212);
+    padding: 2px;
+    text-align: center;
+}
+.heading{
+    
+    animation-name: row;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+ 
+
+
+  @keyframes row {
+    0% {
+     
+transform: scale(0.01);
+ 
+    }
+    50% {
+      
+        transform: scale(0.5);
+        
+
+    }
+    80% {
+       
+        transform: scale(0.9); 
+        
+
+    }
+    100% {
+       
+        transform: scale(0.01); 
+        
+
+    }
+  }
+.heading:first-letter{
+    font-size: 40px;
+    color: blue;
+
+}
+
+.picbody{
+    margin-top: 3%;
+    border: 1px solid #ccc;
+    padding: 1%;
+    border-radius: 3px;
+   text-align: center;
+border-bottom: none;
+
+}
+.pic{
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding-bottom: 3%;
+    margin: 1.1%;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+
+ 
+.pic:hover{
+box-shadow: 1px 3px 12px rgb(190, 188, 188) ;
+ transform: scale(1.01);
+
+}
+ 
+.img1{
+    width: 29vw;
+    height: 40vh;
+    border-radius: 3px;
+}
+@media screen and (max-width:800px) {
+    .pic{
+        display: list-item;
+        list-style: none;
+         
+    }
+    
+    .img1{
+        width: 80vw;
+        height: 40vh;
+    }
+    .notes{
+        font-size: 13px;
+        padding: 7px;
+    }
+}
+.paragraphs{
+text-align: center;
+}
+.topic{
+     
+text-align: left;
+padding-left: 10px;
+}
+.notes{
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid rgb(202, 202, 202);
+    margin: 1%;
+    border-radius: 2px;
+}
+
+ .notes:hover{
+    box-shadow: 1px 3px 12px rgb(190, 188, 188) ;
+ 
+ }
+.imgtag{
+       
+   
+    padding-bottom: 30px;
+    width: 17.2vw;
+}
+#scroll{
+    
+     transform: rotate(90deg);
+   position: fixed;
+   color: black;
+   margin-left: 3px;
+}
+.ar{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 900;
+   
+   
+}
+footer{
+    text-align: center;
+    color: white;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(54, 54, 54);
+}
